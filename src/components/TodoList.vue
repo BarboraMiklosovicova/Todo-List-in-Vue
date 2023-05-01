@@ -44,6 +44,15 @@ ul {
   list-style: none;
 }
 .todos {
-  font-size: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+  width: 300px;
+  height: 40px;
+
+  background-color: transparent;
+}
+
+input {
+  border: none;
 }
 </style>

@@ -25,7 +25,7 @@ onMounted(() => {
     </h2>
   </div>
   <div class="create-todo">
-    <h4>CREATE TODO</h4>
+    <h3>CREATE TODO</h3>
     <form @submit.prevent="() => $emit('addingNewTodo', description)">
       <p>What's on your todo list?</p>
       <input
@@ -35,11 +35,12 @@ onMounted(() => {
         v-model="description"
       />
     </form>
-    <br />
-    <button>Add todo</button>
   </div>
 </template>
 <style>
+body {
+  background-color: #c8e1cc;
+}
 .date-input {
   appearance: none;
   border: none;
@@ -47,7 +48,7 @@ onMounted(() => {
   background: none;
   cursor: initial;
   font-size: 15px;
-  color: pink;
+  color: palevioletred;
 }
 .header-container {
   display: flex;
@@ -57,9 +58,6 @@ h2 {
 }
 .input-content {
   width: 80vw;
-  height: 40px;
-}
-.submit-btn {
-  background-color: palevioletred;
+  height: 30px;
 }
 </style>
