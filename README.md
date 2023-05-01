@@ -5,8 +5,8 @@
 Responsive layout for mobile
 
 <p align="center">
-<img src="" width=250px height=500px>
-<img src="" width=250px height=500px>
+<img src="./src/assets/images/Mobile1.png" width=250px height=500px>
+<img src="./src/assets/images/Mobile2.png" width=250px height=500px>
 
 </p>
 
