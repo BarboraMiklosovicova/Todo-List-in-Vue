@@ -10,12 +10,6 @@ Responsive layout for mobile
 
 </p>
 
-Responsive layout for desktop
-
-<p align="center">
-<img src="" width=40% height=40%>
-</p>
-
 ### Tools used in this project
 
 [![My Skills](https://skillicons.dev/icons?i=ts,html,css,vue)](https://skillicons.dev)
